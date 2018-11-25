@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="X86ASM\LunaDateLib.cpp">
+      <Filter>X86ASM</Filter>
+    </ClCompile>
+    <ClCompile Include="X86ASM\LunaPortLib.cpp">
+      <Filter>X86ASM</Filter>
+    </ClCompile>
+    <ClCompile Include="CVDC\CelesDip.cpp">
+      <Filter>CelestiaDip</Filter>
+    </ClCompile>
+    <ClCompile Include="TwilightALG\TWL__STR.cpp">
+      <Filter>TwilightALG</Filter>
+    </ClCompile>
+    <ClCompile Include="second.cpp" />
+    <ClCompile Include="NightmareMoon.cpp">
+      <Filter>Nightmare</Filter>
+    </ClCompile>
+    <ClCompile Include="panic.cpp">
+      <Filter>Nightmare</Filter>
+    </ClCompile>
+    <ClCompile Include="LX_VMGR_PDE.cpp" />
+    <ClCompile Include="LX_VMGR_PTE.cpp" />
+    <ClCompile Include="LX_MMNGR_V.cpp" />
+    <ClCompile Include="LunaOS\os.cpp">
+      <Filter>LunaOS</Filter>
+    </ClCompile>
+    <ClCompile Include="LX_MMNGR.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="X86ASM">
+      <UniqueIdentifier>{52d0c00c-592c-4644-9b70-6324355e681a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CelestiaDip">
+      <UniqueIdentifier>{669e0ae9-c7d6-4b57-a343-f791400e12e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TwilightALG">
+      <UniqueIdentifier>{6c6779a4-f8bb-44ea-9114-1dea840ad40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nightmare">
+      <UniqueIdentifier>{4ed914fd-4e34-4bd9-8dda-b9b0ecbb2fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LunaOS">
+      <UniqueIdentifier>{5fc85937-ce31-48e4-813c-59a5483c7fc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X86ASM\LUA_DATE.h">
+      <Filter>X86ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="X86ASM\LUA_PORTLib.h">
+      <Filter>X86ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="CVDC\CELESTIA_DIP.h">
+      <Filter>CelestiaDip</Filter>
+    </ClInclude>
+    <ClInclude Include="TwilightALG\TWI_STR.h">
+      <Filter>TwilightALG</Filter>
+    </ClInclude>
+    <ClInclude Include="CVDC\CELESTIA_COLOR.h">
+      <Filter>CelestiaDip</Filter>
+    </ClInclude>
+    <ClInclude Include="NightmareMoon.h">
+      <Filter>Nightmare</Filter>
+    </ClInclude>
+    <ClInclude Include="LX_MMNGR_V.h" />
+    <ClInclude Include="LX_VMGR_PDE.h" />
+    <ClInclude Include="LX_VMGR_PTE.h" />
+    <ClInclude Include="LunaOS\os.h">
+      <Filter>LunaOS</Filter>
+    </ClInclude>
+    <ClInclude Include="LX_MMNGR.h" />
+  </ItemGroup>
+</Project>

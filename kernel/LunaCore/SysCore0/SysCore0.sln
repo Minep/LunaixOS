@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SysCore0", "SysCore0\SysCore0.vcxproj", "{B04F90F9-092B-4864-A386-C1FD7418FDEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRLib", "LRLib\LRLib.vcxproj", "{D33577B2-105B-4F22-B7A8-676F656A3532}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lhal", "lhal\lhal.vcxproj", "{2662D5C7-27F1-4B40-9BCC-AF78D9A643D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LUNAIX_kbDriver", "LUNAIX_kbDriver\LUNAIX_kbDriver.vcxproj", "{F49427D0-4E6C-4760-996E-2A08A0856085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B04F90F9-092B-4864-A386-C1FD7418FDEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B04F90F9-092B-4864-A386-C1FD7418FDEE}.Debug|Win32.Build.0 = Debug|Win32
+		{B04F90F9-092B-4864-A386-C1FD7418FDEE}.Release|Win32.ActiveCfg = Release|Win32
+		{B04F90F9-092B-4864-A386-C1FD7418FDEE}.Release|Win32.Build.0 = Release|Win32
+		{D33577B2-105B-4F22-B7A8-676F656A3532}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D33577B2-105B-4F22-B7A8-676F656A3532}.Debug|Win32.Build.0 = Debug|Win32
+		{D33577B2-105B-4F22-B7A8-676F656A3532}.Release|Win32.ActiveCfg = Release|Win32
+		{D33577B2-105B-4F22-B7A8-676F656A3532}.Release|Win32.Build.0 = Release|Win32
+		{2662D5C7-27F1-4B40-9BCC-AF78D9A643D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2662D5C7-27F1-4B40-9BCC-AF78D9A643D8}.Debug|Win32.Build.0 = Debug|Win32
+		{2662D5C7-27F1-4B40-9BCC-AF78D9A643D8}.Release|Win32.ActiveCfg = Release|Win32
+		{2662D5C7-27F1-4B40-9BCC-AF78D9A643D8}.Release|Win32.Build.0 = Release|Win32
+		{F49427D0-4E6C-4760-996E-2A08A0856085}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F49427D0-4E6C-4760-996E-2A08A0856085}.Debug|Win32.Build.0 = Debug|Win32
+		{F49427D0-4E6C-4760-996E-2A08A0856085}.Release|Win32.ActiveCfg = Release|Win32
+		{F49427D0-4E6C-4760-996E-2A08A0856085}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
