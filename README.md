@@ -1,6 +1,6 @@
 # LunaixOS
 
-## A Simple and Developing Operating System Kernel
+## A Simple Operating System Kernel
 ### Feature:
 + C++ support
 + Error Handling
